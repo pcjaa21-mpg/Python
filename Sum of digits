@@ -1,0 +1,10 @@
+n=int(input("Enter number:"))
+sum=0
+if(n>=1000 and n<=9999):
+   while n>0:
+      x=n%10
+      sum+=x
+      n=n//10
+   print "Sum of digits:",sum
+else:
+   print "Invalid input"
