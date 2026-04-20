@@ -1,0 +1,6 @@
+a=raw_input("Enter string1:")
+b=raw_input("Enter string2:")
+if(a==b):
+   print ("Strings are equal")
+else:
+    print( "Strings are not equal")
