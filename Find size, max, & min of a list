@@ -1,0 +1,10 @@
+list1=['Blue','Green','Yellow','Red','Pink','Orange']
+list2=[21,11,9,17,27,5,3]
+x=len(list1)
+print "The size of list (colours) is",x
+y=max(list2)
+z=min(list2)
+
+print "The maximum and minimum value in the list are",y, "and",z
+a=sum(list2)
+print "The sum of all elements in the list is",a
