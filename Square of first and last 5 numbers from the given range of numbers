@@ -1,0 +1,7 @@
+numbers = list(range(1, 31))
+selection = numbers[:5] + numbers[-5:]
+result = []
+for i in selection:
+   if i % 2 == 0:
+      result.append(i**2)
+print(str(result)[1:-1])
