@@ -1,0 +1,12 @@
+def power(base,exp):
+   if exp==0:
+      return 1
+   elif exp<0:
+      x=(1/(base**(-exp)))
+      return x
+   else:
+      x=base**exp
+      return x
+a=float(input("Enter base:"))
+b=float(input("Enter exponent:"))
+print " The result is ",power(a,b)
