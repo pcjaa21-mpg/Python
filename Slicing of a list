@@ -1,0 +1,13 @@
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+start = int(input("Enter start index: "))
+stop = int(input("Enter stop index: "))
+print "Sliced result:", nums[start:stop]
+evens = []
+odds = []
+for x in nums:
+   if x % 2 == 0:
+      evens.append(x)
+   else:
+      odds.append(x)
+nums = evens + odds
+print "Odds moved to end:", nums
