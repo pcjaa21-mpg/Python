@@ -1,0 +1,25 @@
+import math
+print("1.Input=Base and height")
+print("2.Input=Sides")
+choice=int(input("Enter the choice:"))
+if(choice==1):
+   b=int(input("Enter base:"))
+   h=int(input("Enter height:"))
+   if (b>=0 and h>0):
+      area=0.5*b*h
+      print "Area of triangle=",area
+   else:
+      print("Invalid input")
+elif(choice==2):
+      x=int(input("Enter side 1:"))
+      y=int(input("Enter side 2:"))
+      z=int(input("Enter side 3:"))
+      if(x>=0 and y>=0 and z>=0):
+         s=((x+y+z)/2)
+         a=(s*(s-x)*(s-y)*(s-z))
+         area=math.sqrt(a)
+         print "Area of triangle=",area
+      else:
+         print("Invalid input")
+else:
+         print"Invalid choice"
