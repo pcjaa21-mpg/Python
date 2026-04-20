@@ -1,0 +1,21 @@
+m1=float(input("Enter english mark:"))
+m2=float(input("Enter maths marks:"))
+m3=float(input("Enter tamil marks:"))
+m4=float(input("Enter science mark:"))
+m5=float(input("Enter social mark:"))
+a=(m1+m2+m3+m4+m5)/5
+print "Avarage marks:",a
+if(a>=90):
+   print "Grade:O"
+elif(a>=80 and a<=89):
+   print "Grade:A+"
+elif(a>=70 and a<=79):
+   print "Grade:A"
+elif(a>=60 and a<=69):
+   print "Grade:B+"
+elif(a>=55 and a<=59):
+   print "Grade:B"
+elif(a>=50 and a<=54):
+   print "Grade:C"
+else:
+   print "Reappear"
