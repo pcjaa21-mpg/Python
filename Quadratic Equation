@@ -1,0 +1,17 @@
+import math
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+c=int(input("ENter c:"))
+x=(b*b)-(4*a*c)
+if(x>=0):
+   y=math.sqrt(x)
+   r1=((-b)+y)/(2*a)
+   r2=((-b)-y)/(2*a)
+   print "root1=",r1
+   print "root2=",r2
+else:
+   y=math.sqrt(-x)
+   i=y/(2*a)
+   r=(-b)/(2*a)
+   print "root1=",r,"+j",i
+   print "root2=",r,"-j",i
