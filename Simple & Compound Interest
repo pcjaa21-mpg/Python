@@ -1,0 +1,12 @@
+p=float(input("Enter principal amount:"))
+t=float(input("Enter the years:"))
+r=float(input("Enter rate of interest:"))
+n=float(input("Enter the compunding frequency:"))
+x=(p*t*r)/100
+print "Simple Interest:",x
+y=(r*t)/100
+a=n*t
+z=(1+y)**a
+c=p*z
+d=c-p
+print "Compount Interest:",d
